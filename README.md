@@ -1,6 +1,12 @@
 # Module 01 Challenge - Credit Risk Analysis
 Researcher: Dr. Carl Arrington, Jr.
+
 Files: 
+* [credit_risk_resampling.ipynb](https://github.com/DrCarlArrington/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb)
+* [credit_risk_ensemble.ipynb](https://github.com/DrCarlArrington/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb)
+* [LoanStats_2019Q1.csv.zip](https://github.com/DrCarlArrington/Credit_Risk_Analysis/blob/main/LoanStats_2019Q1.csv.zip)
+* [README.md](https://github.com/DrCarlArrington/Credit_Risk_Analysis/blob/main/README.md) (current file)
+
 
 # Overview
 

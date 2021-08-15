@@ -14,7 +14,7 @@ During this module, the reseacher (re)developed skills in data preparation, stat
 
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, the researcher needed to employ different techniques of Machine Learning to train and evaluate models with unbalanced classes. The researcher was asked to use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
 
-Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, the researcher oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersampled the data using the ClusterCentroids algorithm. Then the researcher used combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Finally the researcher compared two new machine learning models that reduced bias, BalancedRandomForestClassifier (attempted then used a regular RandomForestClassifier) and EasyEnsembleClassifier, to predict credit risk. 
+Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, the researcher oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersampled the data using the ClusterCentroids algorithm. Then the researcher used combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Finally, the researcher compared two new machine learning models that reduced bias, BalancedRandomForestClassifier (attempted then used a regular RandomForestClassifier) and EasyEnsembleClassifier, to predict credit risk. 
 
 # Summary and Analysis of Results - Resampling: Oversampling, Undersampling, and Combination Sampling Models
 

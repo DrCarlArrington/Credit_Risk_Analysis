@@ -17,6 +17,6 @@ Overall, the Oversampling, Undersampling, and Combination Sampling Models are in
 
 # Summary and Analysis of Results - Ensemble Classification Models
 
-**Balanced Random Forest** - Although the instructions recommended using the Balanced Random Forest method, results were unable to be produced due to an 'ValueError: object of too small depth for desired array' error when using the suggested method with 100 estimators and a random state of 1. The researcher even attempted to increase the number of estimators to as many as 1,000,000 as well as a random state of 78 based on documentation, only resulting in lengthy compilation times ( > 10 minutes) and the same 'ValueError: object of too small depth for desired array'. Therefore, in order to still approach the analysis, the researcher used a basic Random Forest Classifier. 
+**Balanced Random Forest** - Although the instructions recommended using the Balanced Random Forest method, results were unable to be produced due to an 'ValueError: object of too small depth for desired array' error when using the suggested method with 100 estimators and a random state of 1. The researcher even attempted to increase the number of estimators to as many as 1,000,000 as well as a random state of 78 based on documentation, only resulting in lengthy compilation times ( > 10 minutes) and the same 'ValueError: object of too small depth for desired array'. Therefore, in order to still approach the analysis, the researcher used a basic Random Forest Classifier to analyze this dataset. 
 
 **Random Forest** - 

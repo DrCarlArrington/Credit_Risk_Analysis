@@ -19,4 +19,9 @@ Overall, the Oversampling, Undersampling, and Combination Sampling Models are in
 
 **Balanced Random Forest** - Although the instructions recommended using the Balanced Random Forest method, results were unable to be produced due to an 'ValueError: object of too small depth for desired array' error when using the suggested method with 100 estimators and a random state of 1. The researcher even attempted to increase the number of estimators to as many as 1,000,000 as well as a random state of 78 based on documentation, only resulting in lengthy compilation times ( > 10 minutes) and the same 'ValueError: object of too small depth for desired array'. Therefore, in order to still approach the analysis, the researcher used a basic Random Forest Classifier to analyze this dataset. 
 
-**Random Forest** - 
+**Random Forest** - Upon using the Random Forest classifier, the precision for high risk loans was 0.88 and 1.00 for low risk loans. The recall, was 0.37 for high risk loans, meaning that it only found 37% of the bad loan applications. The F1 score for high risk loans was the highes of all of the models at 0.52, but that value may not be the best representation of the dataset, as the Random Forest was not balanced. If functional, a Balanced Random Forest model may have lent some diversity of data to learn and not focus on a portion of the majority class which was the Low Risk data.
+
+**Easy Ensemble With AdaBoost** - There were different, yet more expected results from using the random forest classifier with AdaBoost. The Easy Ensemble with AdaBoost still suffered from inadequate predictive power. Its precision score was 0.09 and its recall was 0.92 for high risk loans. The F1 score, scored low at 0.16 for predicting high risk loans.
+
+Overall, the Ensemble Classification Models are inadequate at predictions for this dataset and are not recommended. 
+
